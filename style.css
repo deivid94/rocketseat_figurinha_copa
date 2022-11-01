@@ -26,15 +26,25 @@ header{
 }
 
 
-.card {
+.colorCard1{
 border-radius: 13px;
 margin: auto;
 width: 308px;
 height: 508px;
-background-image: url(./assests/bg-explorer.svg);
+background-image: url(./assests/bg-ignite.svg);
+cursor: pointer;
 }
 
-.card > img {
+.colorCard2 {
+  margin: auto;
+  width: 308px;
+  height: 508px;
+  border-radius: 13px;
+  background-image:url(./assests/bg-explorer.svg);
+  cursor: pointer;
+}
+
+.colorCard1 > img {
   margin-top: 110px;
   margin-left: 50px;
   width: 150px;
@@ -42,8 +52,16 @@ background-image: url(./assests/bg-explorer.svg);
   object-fit: cover;
   border-radius:50%;
   border: 4px solid#F7DD43;
-  
+}
 
+.colorCard2 > img {
+  margin-top: 110px;
+  margin-left: 50px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius:50%;
+  border: 4px solid#F7DD43;
 }
 .info {
 
